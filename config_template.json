@@ -1,0 +1,28 @@
+{
+  "autosave": true,
+  "donate-level": 1,
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "hw-aes": true,
+    "priority": 5,
+    "max-threads-hint": 90
+  },
+  "opencl": false,
+  "cuda": false,
+  "randomx": {
+    "1gb-pages": true,
+    "rdmsr": true,
+    "wrmsr": false
+  },
+  "pools": [
+    {
+      "url": "xmr-eu.kryptex.network:7029",
+      "user": "44U82k9NtMoVvotg98e7qJejfymXtQqhGg21x25qBQJvWfnysKzpKoY6ch6Gu5z4zKb1mULwP78BNHNwF7EVTj1o7fteioL",
+      "pass": "x",
+      "keepalive": true,
+      "tls": false,
+      "coin": "monero"
+    }
+  ]
+}
